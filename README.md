@@ -19,3 +19,5 @@ The parameters above are optimised using the Nelder-Meade algorithm. A composite
 It is assumed that the hologram has been coarsely aligned using CamLab-SLM-Manual-Alignment, and that the off-axis holography parameters have been approximately set using CamLab-OffAxisCamera-Setup.
 
 The code needs some handholding to work. The user can select which parameters to optimise, and it is recommended that in the first instance the hologram offset and the hologram tilt are optimised for, as well as the output field crop in real space and the output field crop in inverse space. It is also recommended that in the first instance only a few low-order modes are considered.
+
+TIP: If FFTW.NET throws errors, reinstall it using the NuGet package manager.
