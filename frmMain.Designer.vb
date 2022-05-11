@@ -77,7 +77,6 @@ Partial Class frmMain
         Me.cmdAlignCameraCrop = New System.Windows.Forms.Button()
         Me.cmdAlignFFTCrop = New System.Windows.Forms.Button()
         Me.cmdSaveModes = New System.Windows.Forms.Button()
-        Me.cmdLinPolCircPol = New System.Windows.Forms.Button()
         Me.grpbxTx1.SuspendLayout()
         Me.StatusStrip.SuspendLayout()
         Me.grpbxRx1.SuspendLayout()
@@ -635,24 +634,11 @@ Partial Class frmMain
         Me.cmdSaveModes.Text = "Save All Modes"
         Me.cmdSaveModes.UseVisualStyleBackColor = True
         '
-        'cmdLinPolCircPol
-        '
-        Me.cmdLinPolCircPol.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.cmdLinPolCircPol.Enabled = False
-        Me.cmdLinPolCircPol.Location = New System.Drawing.Point(14, 603)
-        Me.cmdLinPolCircPol.Name = "cmdLinPolCircPol"
-        Me.cmdLinPolCircPol.Size = New System.Drawing.Size(377, 30)
-        Me.cmdLinPolCircPol.TabIndex = 54
-        Me.cmdLinPolCircPol.Text = "Save Lin Pol, Circ Pol"
-        Me.cmdLinPolCircPol.UseVisualStyleBackColor = True
-        '
         'frmMain
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(402, 670)
-        Me.Controls.Add(Me.cmdLinPolCircPol)
         Me.Controls.Add(Me.cmdSaveModes)
         Me.Controls.Add(Me.cmdAlignFFTCrop)
         Me.Controls.Add(Me.cmdAlignCameraCrop)
@@ -743,5 +729,4 @@ Partial Class frmMain
     Friend WithEvents chkTx1Rotation As CheckBox
     Friend WithEvents lblTx1Rotation As Label
     Friend WithEvents cmdSaveModes As Button
-    Friend WithEvents cmdLinPolCircPol As Button
 End Class
